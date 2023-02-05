@@ -1,0 +1,21 @@
+.des{
+    text-align: center;
+    align-items: center;  
+    justify-content: center;
+}
+h3{
+    text-align: center;
+    color: green;
+    margin-top: 30px;
+    
+}
+.st{
+    text-align: center;
+    margin-top: 50px;
+    /* border: solid black 1px; */
+    background-color: azure;
+    /* width: 220px;
+    height: 300px; */
+    border-radius: 10px;
+    /* margin-left: 500px; */
+}

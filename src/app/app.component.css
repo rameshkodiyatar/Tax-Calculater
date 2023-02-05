@@ -1,0 +1,47 @@
+.header{
+    text-align : center;
+    color: white;
+    /* margin-left: 500px; */
+}
+
+.nam{
+    margin-top: 20px;
+    align-items: center;  
+    justify-content: center;
+    text-align: center;
+}
+.notis{
+    text-align: center !important;
+    align-items: center; 
+    color: blue; 
+    margin-top: 80px;
+}
+
+.emp{
+    margin-left: 20px;
+}
+.sign{
+    margin-left: 20px;
+}
+.log{
+    margin-left: 20px;
+}
+.acc{
+    margin-left: 770px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+.nav li{
+    padding-left: 15px;
+    
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}

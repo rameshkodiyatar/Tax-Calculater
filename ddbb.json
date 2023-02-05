@@ -1,0 +1,94 @@
+{
+  "seller": [
+    {
+      "name": "bupat",
+      "password": "bupat@123",
+      "email": "bhupat.@gmail.com",
+      "id": 18613
+    },
+    {
+      "name": "vijay",
+      "password": "vijay@123",
+      "email": "vijay@gmail.com",
+      "id": 18614
+    },
+    {
+      "name": "madhav",
+      "password": "madhav@123",
+      "email": "madhav@gmail.com",
+      "id": 18615
+    },
+    {
+      "name": "milan",
+      "email": "milan@gmail.com",
+      "password": "milan@123",
+      "id": 18616
+    },
+    {
+      "name": "krishna",
+      "email": "krishna@gmail.com",
+      "password": "krishna@123",
+      "id": 18617
+    },
+    {
+      "name": "durgesh",
+      "email": "durgesh.shukla@exxat.com",
+      "password": "durgesh@123",
+      "id": 18618
+    },
+    {
+      "name": "jay",
+      "password": "jay@123",
+      "email": "jay@gmail.com",
+      "id": 18619
+    },
+    {
+      "name": "admin",
+      "password": "admin@123",
+      "email": "admin@gmail.com",
+      "id": 18620
+    },
+    {
+      "name": "kara",
+      "password": "kara@123",
+      "email": "kara@gmail.com",
+      "id": 18621
+    },
+    {
+      "name": "priyank_Patel",
+      "password": "priyank@gmail.com",
+      "email": "priyank@gmail.com",
+      "id": 18622
+    },
+    {
+      "name": "priyank_Patel",
+      "password": "priyank@123",
+      "email": "priyank@gmail.com",
+      "id": 18623
+    },
+    {
+      "name": "Rajubhai",
+      "password": "raju@123",
+      "email": "raju@gmail.com",
+      "id": 18624
+    },
+    {
+      "name": "dhawal",
+      "password": "dhawal@123",
+      "email": "dhawal@gmail.com",
+      "id": 18625
+    },
+    {
+      "name": "devraj",
+      "password": "devraj@123",
+      "email": "devraj@gmail.com",
+      "id": 18626
+    },
+    {
+      "name": "bhagirath",
+      "password": "bhagirath@123",
+      "email": "bhagirath@gmail.com",
+      "id": 18627
+    }
+  ]
+}

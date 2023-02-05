@@ -1,0 +1,189 @@
+<!-- <h1 style="color: blueviolet;" class="heding">Hello Angular {{title | uppercase}} </h1> -->
+<!-- <h2>{{role}}</h2>
+<P>Function:{{getvalue()}}</P> -->
+<!-- <rooms [Item]="Data"></rooms>
+
+<button (click)="updateChild()">Update Child Component</button> -->
+
+<!-- <button (click)="getData('hello')">Cleck me</button>
+<br>
+<br>
+<input type="text" #box (keydown)="getData(box.value)" placeholder="Enter Your Name">
+<br>
+<br>
+<input type="text" #box2 (blur)="getData(box2.value)" placeholder="name">
+<br>
+<input type="text" #box3 (input)="getData(box3.value)" placeholder="name">
+
+<h1 (mouseover)="getData('Raj')">Exxat</h1>
+<h1 (mouseleave)="getData('Raaj')">Exxat</h1> -->
+
+<!-- <input type="text" #box  placeholder="Enter name" name="name">
+
+<button (click)="getValue(box.placeholder)">Click</button>
+<p>
+    Value:{{displayValue}}
+</p>
+
+Counter-->
+
+<!-- <button (click)="counter('-')">--</button>
+<p>
+    Count:{{num}}
+</p>
+<button (click)="counter('+')">++</button> 
+Proparty Binding-->
+
+<!-- <input type="text" name="User_name" value={{name}}>
+<br>
+<br>
+<input type="text" name="user-name" [value]=name>
+If-Else -->
+
+<!-- <h1 *ngIf="show==true;then ifc else elseblock">It's true</h1>
+<ng-template #ifc>
+    <h1>If condition</h1>
+</ng-template>
+<ng-template #elseblock>
+    <h1>Else Condition</h1>
+</ng-template>
+If-else -->
+<!-- <ng-template [ngIf]="color=='red'">
+    <h1 style="color: red;">Red color</h1>
+</ng-template>
+<ng-template [ngIf]="color=='blue'">
+    <h1 style="color: blue;">blue color</h1>
+</ng-template>
+<ng-template [ngIf]="color=='greeen'">
+    <h1 style="color: green;">Green color</h1>
+</ng-template>
+Switch-case -->
+
+<!-- <div [ngSwitch]="color">
+    <h1 *ngSwitchCase="'red'" style="color: red;">Red Color</h1>
+    <h1 *ngSwitchCase="'blue'" style="color: blue;">Red Color</h1>
+    <h1 *ngSwitchCase="'greeen'" style="color: green;">Red Color</h1>
+    <h1 *ngSwitchDefault="" >Unknowen Color</h1>
+</div> 
+Loop -->
+
+<!-- <h3 *ngFor="let a of user">{{a}}</h3>  -->
+
+<!-- <form #basicForm="ngForm" (ngSubmit)="getData(basicForm.value)">
+    <input type="text" ngModel name="user" placeholder="Enter User name"/>
+    <br>
+    <br>
+    <input type="text" ngModel name="email" placeholder="Enter user name"/>
+    <br>
+    <br>
+    <input type="text" ngModel name="password" placeholder="Enter user password">
+    <br>
+    <br>
+    <button>Register</button>
+<br>
+    <ul>
+        <li>{{data.email}}</li>
+        <li>{{data.user}}</li>
+    </ul>
+</form> -->
+
+<!-- <button (click)="toggle()">Toggle</button>
+
+<h1 *ngIf="display">
+    Heading Tag
+</h1>
+Todo List -->
+<!-- <input type="text" placeholder="Enter new Task" #task>
+<br>
+<br>
+<button (click)="addTask(task.value)">Add task</button>
+<br>
+<br>
+
+<ul *ngFor="let a of list">
+    <li>{{a.name}} <button (click)="remove(a.id)">Remove</button></li>
+    <br>
+</ul> 
+Transfrom data from parants to child component
+Reusable Component-->
+
+<!-- <rooms></rooms>
+<br>
+<br>
+
+
+<ul *ngFor="let a of userDetails">
+    <rooms [item]="a"></rooms>
+</ul>
+Transfrom data from child to parants -->
+<!-- <rooms (updateDataEvent)="UpdateData($event)"></rooms>
+Two way binding -->
+
+<!-- <input type="text" [(ngModel)]="Name">
+
+<h3>{{Name}}</h3>
+Template Reference Variable -->
+
+<!-- <input type="text" #box>
+<button (click)="GetValue(box.value)">Call Function</button>
+Pipes -->
+
+<!-- <h3>{{dete | date}}</h3>
+Template driven form -->
+
+<!-- <form [formGroup]="loginForm" (ngSubmit)="loginUser()">
+    <input type="text" ngModel placeholder="Enter Name" name="name" formControlName="user">
+    <br>
+    <br>
+    <input type="password" ngModel placeholder="Enter password" name="password" formControlName="password">
+    <br> 
+    <br>
+    <button>Login</button>
+</form> 
+Directive-->
+<!-- //Academy Project -->
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     C:\Users\rameshkumar.kodiyata\blog\src\exxat.jpg  
+    <img src="../assets/exxat.jpg" width="200px" height="100px">
+    <h1>Welcome to Exxat</h1>
+    <br>
+    <div class="con">
+        <a class="about" routerLink="about">About</a>
+        <a class="home" routerLink="home">Login</a>
+        <a class="student" ng-hide="page.isHide" routerLink="student">Student</a>
+        <a class="admin" ng-hide="page.isHide" routerLink="admin">Admin</a>
+    </div>
+    
+    
+</nav>
+ <img src="../assets/img.jpg"> 
+<router-outlet></router-outlet>  -->
+
+<!--// E-commerce Prject     
+<app-header></app-header>
+
+<router-outlet></router-outlet>-->
+
+<nav class="navbar nav navbar-expand-lg navbar-dark bg-dark">
+    <h1 class="header">Tax Calculator</h1>
+    <ul>
+        <li><a  routerLink="account">SignUp</a></li>
+        <li><a  routerLink="login">UserData</a></li>
+        <li> <a routerLink="signup">AddData</a></li>
+        <li> <a routerLink="employees">Employees</a></li>
+</ul>
+</nav>
+   
+    
+
+<router-outlet></router-outlet>
+
+
+
+
+
+
+
+
+
+

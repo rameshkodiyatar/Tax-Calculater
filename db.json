@@ -1,0 +1,404 @@
+{
+  "Users": [
+    {
+      "id": "5",
+      "name": "krishna",
+      "email": "durgesh.shukla@exxat.com",
+      "offertype": "fulltime"
+    },
+    {
+      "id": "6",
+      "name": "tusal",
+      "email": "durgesh.shukla@exxat.com",
+      "offertype": "internship"
+    },
+    {
+      "id": "7",
+      "name": "rutu",
+      "email": "kara@gmail.com",
+      "offertype": "fulltime"
+    },
+    {
+      "name": "kara",
+      "email": "kara@gmail.com",
+      "offertype": "job",
+      "id": "1"
+    },
+    {
+      "name": "dhawal",
+      "email": "ramesh@gmail.com",
+      "offertype": "job",
+      "id": "9"
+    },
+    {
+      "name": "dhawal",
+      "email": "ramesh@gmail.com",
+      "offertype": "job",
+      "id": "88"
+    },
+    {
+      "name": "kara",
+      "email": "kara@gmail.com",
+      "offertype": "job",
+      "id": "11"
+    }
+  ],
+  "Data": [
+    {
+      "name": "Darsan",
+      "email": "darsan@gmail.com",
+      "contactNo": "123456789",
+      "password": "darsan@123"
+    },
+    {
+      "name": "kara",
+      "email": "kara@gmail.com",
+      "Contact No": "234567890-6",
+      "password": "kara@123",
+      "id": 1
+    },
+    {
+      "name": "dhawal",
+      "email": "durgesh.shukla@exxat.com",
+      "Contact No": "2345678678",
+      "password": "sdfghjk",
+      "id": 2
+    },
+    {
+      "name": "kara",
+      "email": "karan@gmail.com",
+      "Contact No": "48656465465576",
+      "password": "cjvhvh",
+      "id": 3
+    },
+    {
+      "name": "kara",
+      "email": "karan@gmail.com",
+      "Contact No": "48656465465576",
+      "password": "cjvhvh",
+      "id": 4
+    },
+    {
+      "name": "kara",
+      "email": "karan@gmail.com",
+      "Contact No": "48656465465576",
+      "password": "cjvhvh",
+      "id": 5
+    },
+    {
+      "name": "kara",
+      "email": "karan@gmail.com",
+      "Contact No": "48656465465576",
+      "password": "cjvhvh",
+      "id": 6
+    },
+    {
+      "name": "kara",
+      "email": "karan@gmail.com",
+      "Contact No": "48656465465576",
+      "password": "cjvhvh",
+      "id": 7
+    },
+    {
+      "name": "dasdasdadad",
+      "email": "kara@gmail.com",
+      "Contact No": "234567890-6",
+      "password": "rdxycjouyfhg",
+      "id": 8
+    },
+    {
+      "name": "dasdasdadad",
+      "email": "durgesh.shukla@exxat.com",
+      "Contact No": "rt6t7yiu",
+      "password": "hjhlk",
+      "id": 9
+    },
+    {
+      "name": "kara",
+      "email": "kara@gmail.com",
+      "Contact No": "234567890-6",
+      "password": "sdfghjk",
+      "id": 10
+    },
+    {
+      "name": "kara",
+      "email": "kara@gmail.com",
+      "Contact No": "234567890-6",
+      "password": "sdfghjk",
+      "id": 11
+    },
+    {
+      "name": "kara",
+      "email": "kara@gmail.com",
+      "Contact No": "234567890-6",
+      "password": "sdfghjk",
+      "id": 12
+    },
+    {
+      "name": "kara",
+      "email": "kara@gmail.com",
+      "Contact No": "234567890ss-6",
+      "password": "sdfghjk",
+      "id": 13
+    },
+    {
+      "name": "kara",
+      "email": "kara@gmail.com",
+      "Contact No": "234567890ss-6",
+      "password": "sdfghjk",
+      "id": 14
+    },
+    {
+      "name": "kara",
+      "email": "kara@gmail.com",
+      "Contact No": "234567890ss-6",
+      "password": "sdfghjk",
+      "id": 15
+    },
+    {
+      "name": "kara",
+      "email": "kara@gmail.com",
+      "Contact No": "234567890ss-6",
+      "password": "sdfghjk",
+      "id": 16
+    },
+    {
+      "name": "kara",
+      "email": "kara@gmail.com",
+      "Contact No": "234567890ss-6",
+      "password": "sdfghjk",
+      "id": 17
+    },
+    {
+      "name": "kara",
+      "email": "222222222222@22345",
+      "Contact No": "11111111111",
+      "password": "22222222222",
+      "id": 18
+    },
+    {
+      "name": "",
+      "email": "",
+      "Contact No": "",
+      "password": "",
+      "id": 19
+    },
+    {
+      "name": "",
+      "email": "",
+      "Contact No": "",
+      "password": "",
+      "id": 20
+    },
+    {
+      "name": "",
+      "email": "",
+      "Contact No": "",
+      "password": "",
+      "id": 21
+    },
+    {
+      "name": "",
+      "email": "",
+      "Contact No": "",
+      "password": "",
+      "id": 22
+    },
+    {
+      "name": "",
+      "email": "",
+      "Contact No": "",
+      "password": "",
+      "id": 23
+    },
+    {
+      "name": "",
+      "email": "",
+      "Contact No": "",
+      "password": "",
+      "id": 24
+    },
+    {
+      "name": "",
+      "email": "",
+      "Contact No": "",
+      "password": "",
+      "id": 25
+    },
+    {
+      "name": "",
+      "email": "",
+      "Contact No": "",
+      "password": "",
+      "id": 26
+    },
+    {
+      "name": "",
+      "email": "",
+      "Contact No": "",
+      "password": "",
+      "id": 27
+    },
+    {
+      "name": "kara",
+      "email": "kara@gmail.com",
+      "Contact No": "11111111111",
+      "password": "ede",
+      "id": 28
+    },
+    {
+      "name": "kara",
+      "email": "kara@gmail.com",
+      "Contact No": "11111111111",
+      "password": "ede",
+      "id": 29
+    },
+    {
+      "name": "kara",
+      "email": "kara@gmail.com",
+      "Contact No": "11111111111",
+      "password": "ede",
+      "id": 30
+    },
+    {
+      "name": "kara",
+      "email": "kara@gmail.com",
+      "Contact No": "11111111111",
+      "password": "ede",
+      "id": 31
+    },
+    {
+      "name": "kara",
+      "email": "kara@gmail.com",
+      "Contact No": "11111111111",
+      "password": "asdfghjkl",
+      "id": 32
+    },
+    {
+      "name": "kara",
+      "email": "kara@gmail.com",
+      "Contact No": "11111111111",
+      "password": "asdfghjkl",
+      "id": 33
+    },
+    {
+      "name": "kara",
+      "email": "kara@gmail.com",
+      "Contact No": "11111111111",
+      "password": "asdfghjkl",
+      "id": 34
+    },
+    {
+      "name": "",
+      "email": "",
+      "Contact No": "",
+      "password": "",
+      "id": 35
+    },
+    {
+      "name": "",
+      "email": "",
+      "Contact No": "",
+      "password": "",
+      "id": 36
+    },
+    {
+      "name": "",
+      "email": "",
+      "Contact No": "",
+      "password": "",
+      "id": 37
+    },
+    {
+      "name": "",
+      "email": "",
+      "Contact No": "",
+      "password": "",
+      "id": 38
+    },
+    {
+      "name": "",
+      "email": "",
+      "Contact No": "",
+      "password": "",
+      "id": 39
+    },
+    {
+      "name": "",
+      "email": "",
+      "Contact No": "",
+      "password": "",
+      "id": 40
+    },
+    {
+      "name": "",
+      "email": "",
+      "Contact No": "",
+      "password": "",
+      "id": 41
+    },
+    {
+      "name": "",
+      "email": "",
+      "Contact No": "",
+      "password": "",
+      "id": 42
+    },
+    {
+      "name": "",
+      "email": "",
+      "Contact No": "",
+      "password": "",
+      "id": 43
+    },
+    {
+      "name": "",
+      "email": "",
+      "Contact No": "",
+      "password": "",
+      "id": 44
+    },
+    {
+      "name": "",
+      "email": "",
+      "Contact No": "",
+      "password": "",
+      "id": 45
+    },
+    {
+      "name": "",
+      "email": "",
+      "Contact No": "",
+      "password": "",
+      "id": 46
+    },
+    {
+      "name": "",
+      "email": "",
+      "Contact No": "",
+      "password": "",
+      "id": 47
+    },
+    {
+      "name": "",
+      "email": "",
+      "Contact No": "",
+      "password": "",
+      "id": 48
+    },
+    {
+      "name": "",
+      "email": "",
+      "Contact No": "",
+      "password": "",
+      "id": 49
+    },
+    {
+      "name": "kara",
+      "email": "kara@gmail.com",
+      "department": "IT",
+      "password": "wefvc",
+      "id": 50
+    }
+  ]
+}

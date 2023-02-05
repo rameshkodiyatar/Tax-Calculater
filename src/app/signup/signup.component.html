@@ -1,0 +1,15 @@
+
+<form *ngIf="flage" #createaccount="ngForm" class="st">
+    <h3>
+        Add your Information
+    </h3>
+    <div class="des">
+    <input ngModel required class="nam" type="text" name="name" placeholder="Enter your name"><br><br>
+    <input ngModel required type="email" name="email" placeholder="Enter your email"><br><br>
+    <input ngModel required type="number" name="phone" placeholder="Enter your Contact No." ><br><br>
+    <input ngModel required type="text" name="department" placeholder="Enter your Department name"><br><br>
+    <input ngModel required type="number" name="salary" placeholder="Enter your salary" ><br><br>
+    <button (click)="store(createaccount.value)">Add Data</button>
+    </div>
+    
+</form>

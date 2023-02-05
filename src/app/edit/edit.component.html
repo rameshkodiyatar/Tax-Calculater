@@ -1,0 +1,15 @@
+
+<form #createaccount="ngForm" class="st">
+    <h3>
+        Edit your Information
+    </h3>
+    <div class="des">
+    <input [(ngModel)]="employeeDetails.name" required class="nam" type="text" name="name" placeholder="Enter your name"><br><br>
+    <input [(ngModel)]="employeeDetails.email" required type="text" name="email" placeholder="Enter your email"><br><br>
+    <input [(ngModel)]="employeeDetails.phone" required type="number" name="phone" placeholder="Enter your Contact No." ><br><br>
+    <input [(ngModel)]="employeeDetails.department" required type="text" name="department" placeholder="Enter your Department name"><br><br>
+    <input [(ngModel)]="employeeDetails.salary" required type="number" name="salary" placeholder="Enter your salary" ><br><br>
+    <button (click)="store(createaccount.value)">Save</button>
+    </div>
+    
+</form>

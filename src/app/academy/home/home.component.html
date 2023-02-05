@@ -1,0 +1,21 @@
+<h1>Login page</h1>
+
+<form class="frm" #loginform="ngForm">
+    <input class="nam" type="text" ngModel placeholder="Enter User email" name="email" >
+    <br>
+    <br>
+    <input  type="text" ngModel placeholder="Enter User name" name="username" >
+    <br>
+    <br>
+    <input class="nam" type="text" ngModel placeholder="Enter Passaword" name="password">
+    
+    <br>
+    <br>
+    <input  style="margin-bottom: 10px;" type="text" ngModel placeholder="Enter UserType" name="usertype">
+    
+    <br>
+    <br>
+    <button (click)="getData(loginform.value)">Login</button>
+
+    
+</form>

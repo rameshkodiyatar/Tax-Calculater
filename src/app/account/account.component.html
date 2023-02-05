@@ -1,0 +1,55 @@
+<!-- 
+<form #createaccount="ngForm" class="st">
+    <h3>
+        Please Signup
+    </h3>
+    <div class="des">
+    <input ngModel required class="nam" type="text" name="name" placeholder="Enter your name"><br><br>
+    <input ngModel required type="email" name="email" placeholder="Enter your email"><br><br>
+    
+    <input ngModel required type="text" name="department" placeholder="Enter your Department name"><br><br>
+    <input ngModel required type="password" name="password" placeholder="Enter your password" ><br><br>
+    <button (click)="store(createaccount.value)">SignUp</button>
+    </div>
+    
+</form> -->
+
+
+<div class="seller-suth">
+
+    <div *ngIf="!showlogin">
+        <h1 class="sign-up">User Sign-up</h1>
+
+        <form #sellersignup="ngForm" (ngSubmit)="signUp(sellersignup.value)" class="common-form">
+            <input ngModel class="form-input" type="text" name="name" placeholder="Enter name">
+            <input ngModel class="form-input" type="password" name="password" placeholder="Enter Password">
+            <input ngModel class="form-input" type="email" name="email" placeholder="Enter Email">
+            <button ngModel class="form-button" >Sign-up</button>
+            <a class="auth-toggle-line" (click)="openLogin()">Already Have Account Click to Login</a>
+        </form>
+    </div>
+</div>
+
+
+<div class="seller-suth">
+
+    <div *ngIf="showlogin">
+        <h1 class="sign-up">User Login</h1>
+            <p class="error-p" >{{authError}}</p>
+        
+            <form #sellerlogin="ngForm" (ngSubmit)="login(sellerlogin.value)" class="common-form">    
+            <!-- <input ngModel class="form-input" type="text" name="name" placeholder="Enter name"> -->
+            <input ngModel class="form-input" type="email" name="email" placeholder="Enter Email">
+            
+            <input ngModel class="form-input" type="password" name="password" placeholder="Enter Password">
+            
+            <button ngModel class="form-button" >Login</button>
+            <a class="auth-toggle-line" (click)="openSignup()">Don't Have Account Click to Sig-nup</a>
+        </form>
+    </div>
+</div>
+
+
+
+
+

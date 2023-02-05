@@ -1,0 +1,28 @@
+
+<table class="table">
+    <thead>
+        
+            <tr>
+                <th>Employee_ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Salary</th>
+                <th>Tax</th>
+                <th>Final_Salary</th>
+                
+            </tr>
+        
+    </thead>
+    <tbody>
+        <tr *ngFor="let emp of mahiti" >
+            
+            <td *ngIf="emp.email===email_mahiti">{{emp.id}}</td>
+            <td *ngIf="emp.email===email_mahiti">{{emp.name}}</td>
+            <td *ngIf="emp.email===email_mahiti">{{emp.email}}</td>
+            <td *ngIf="emp.email===email_mahiti">{{emp.salary}}</td>
+            <td *ngIf="emp.email===email_mahiti">{{emp.phone}}</td>
+            <td *ngIf="emp.email===email_mahiti">{{emp.department}}</td>
+            
+        </tr>
+    </tbody>
+</table>

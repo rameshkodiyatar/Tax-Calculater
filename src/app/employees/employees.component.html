@@ -1,0 +1,29 @@
+
+<table class="table">
+    <thead>
+        
+            <tr>
+                <th>Employee_ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Salary</th>
+                <th>Tax</th>
+                <th>Final_Salary</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        
+    </thead>
+    <tbody>
+        <tr *ngFor="let emp of Empl">
+            <td>{{emp.id}}</td>
+            <td>{{emp.name}}</td>
+            <td>{{emp.email}}</td>
+            <td>{{emp.salary}}</td>
+            <td>{{emp.phone}}</td>
+            <td>{{emp.department}}</td>
+            <td><a [routerLink]="['/employees','edit',emp.id]">Edit</a></td>
+            <td><Button (click)="deletedata(emp.id)">Delete</Button></td>
+        </tr>
+    </tbody>
+</table>

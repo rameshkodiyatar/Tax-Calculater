@@ -1,0 +1,47 @@
+
+<h1 >admin page</h1>
+<div *ngIf="flage===true">
+<form #addData="ngForm" (ngSubmit)="AddData(addData.value)">
+    <input type="text" placeholder="Enter your name" name="name" ngModel>
+    <br>
+    <br>
+    <input type="email" placeholder="Enter your email" name="email" ngModel>
+    <br>
+    <br>
+    <input type="text" placeholder="Enter your offertype" name="offertype" ngModel>
+    <br>
+    <br>
+    <input type="text" placeholder="Enter your Id" name="id" ngModel>
+    <br>
+    <br>
+    <button >Add</button>
+    <br>
+    <br>
+</form>
+
+<table class="table">
+    <thead>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>OfferType</th>
+        <th>Edit</th>
+        <th>Remove</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of item; let indexOfelement=index">
+            <td>{{user.id}}</td>
+            <td>{{user.name}}</td>
+            <td>{{user.email}}</td>
+            <td>{{user.offertype}}</td>
+            <td>
+                <form #updatedDetail="ngForm">
+                    <input type="text" ngModel placeholder="Enter updated offer" name="offertype">
+                    <button (click)="editData(user.id,{id:user.id,name:user.name,email:user.email,offertype: updatedDetail.value.offertype})">Edit</button>
+                </form>
+            </td>
+            <td><button (click)="removeData(user.id)">remove</button></td>
+        </tr>
+    </tbody>
+</table>
+</div>

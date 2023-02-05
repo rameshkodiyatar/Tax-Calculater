@@ -1,0 +1,96 @@
+/* Academy Project
+a{
+    float: left;
+    display: inline;
+    margin-top: 80px;
+}
+.con{
+    margin-left: 600px;
+}
+.home {
+    
+    display: block;
+    padding: auto;
+    background-color:wheat;
+    
+    margin-right: 20px;
+}
+.admin{
+    display: block;
+    padding: auto;
+    background-color:wheat;
+    
+    margin-right: 2px;
+}
+.student{
+    display: block;
+    padding: auto;
+    background-color:wheat;
+    
+    margin-right: 20px;
+}
+.about{
+    display: block;
+    padding: auto;
+    background-color:wheat;
+    
+    margin-right: 20px;
+}
+E-commerce Project */
+
+body{
+    font-family: sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav h1{
+    color: blueviolet;
+    margin-top: 5px;
+    font-size: 40px;
+}
+
+.nav ul{
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ .nav li{
+    padding-left: 15px;
+    padding-top: 15px;
+ }
+ .nav li a{
+    text-decoration: none;
+    color: blueviolet;
+ }
+
+ .nav .nav-search{
+    margin-top: 5px;
+    flex: 1;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+ }
+ .nav .nav-search input{
+    flex: 1;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    height: 35px;
+    border-right: 0px;
+ }
+
+ .nav .nav-search button{
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    height: 35px;
+    border-left: 0px;
+ } 
+
+ h1 a{
+    color: blueviolet;
+    text-decoration: none;
+ }
+

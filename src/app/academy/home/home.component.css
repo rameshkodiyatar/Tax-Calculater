@@ -1,0 +1,17 @@
+.frm{
+    border: solid black 1px;
+    background-color: rgb(224, 224, 215);
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    margin-left: 500px;
+
+    padding: auto;
+}
+.nam{
+    padding: auto;
+    margin: 20px;;
+}
+h1{
+    text-align: center;
+}
